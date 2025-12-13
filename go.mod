@@ -1,4 +1,2 @@
-module github.com/test/init_project
-
-
+module MateNode-Golang
 go 1.25.4

@@ -1,11 +1,17 @@
 package main
 
 import (
-	"github.com/test/init_project/advanced_usage"
+	"MateNode-Golang/task_1"
+	"fmt"
 )
 
 func main() {
-	// advanced_usage.Scope()
-	advanced_usage.Array()
-	// advanced_usage.Closure()
+	num := 313
+	barcket_s := "{}()[]"
+	barcket_sj_false := "{}()[](}"
+
+	fmt.Println(task_1.IsPalindrome(num))
+	fmt.Println(task_1.IsValid(barcket_s))
+	fmt.Println(task_1.IsValid(barcket_sj_false))
+
 }

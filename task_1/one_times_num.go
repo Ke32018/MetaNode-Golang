@@ -5,7 +5,7 @@ package task_1
 
 你必须设计并实现线性时间复杂度的算法来解决此问题，且该算法只使用常量额外空间。
 */
-func singleNumber(nums []int) int {
+func SingleNumber(nums []int) int {
 	res := 0
 	for i := 0; i < len(nums); i++ {
 		res ^= nums[i]
