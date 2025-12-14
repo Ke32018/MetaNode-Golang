@@ -6,12 +6,11 @@ import (
 )
 
 func main() {
-	num := 313
-	barcket_s := "{}()[]"
-	barcket_sj_false := "{}()[](}"
+	strs := []string{"flower", "flow", "flight"}
+	// digits := []int{1, 2, 3}
+	digits2 := []int{9}
 
-	fmt.Println(task_1.IsPalindrome(num))
-	fmt.Println(task_1.IsValid(barcket_s))
-	fmt.Println(task_1.IsValid(barcket_sj_false))
-
+	fmt.Println(task_1.LongestCommonPrefix(strs))
+	// fmt.Println(task_1.PlusOne(digits))
+	fmt.Println(task_1.PlusOne(digits2))
 }
